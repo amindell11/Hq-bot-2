@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="hq-bot-base (2)/algorithm-tester/build/libs/algorithm-tester.jar"/>
+	<classpathentry kind="lib" path="hq-bot-base (2)/algorithms/build/libs/algorithms.jar"/>
+	<classpathentry kind="lib" path="hq-bot-base (2)/util/build/libs/util.jar"/>
+	<classpathentry kind="output" path="hq-bot-base (2)/algorithm-tester/bin/default"/>
+</classpath>

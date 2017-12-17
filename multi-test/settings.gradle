@@ -1,3 +1,4 @@
 rootProject.name = 'hq-bot-base'
 include 'algorithm-tester'
 include 'util'
+include 'algorithms'

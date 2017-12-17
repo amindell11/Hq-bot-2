@@ -1,7 +1,11 @@
+package file;
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+
+import question.Question;
 
 public class QuestionListReader extends BufferedReader {
 	String currentLine;

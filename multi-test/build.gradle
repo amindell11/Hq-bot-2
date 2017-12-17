@@ -11,14 +11,17 @@ subprojects{
 	repositories {
 		jcenter()
     	mavenCentral()
+    	
 	}
 	dependencies {
-			compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.0'
+	compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.0'
 	compile 'com.google.cloud:google-cloud-vision:1.12.0'
 	compile 'com.google.apis:google-api-services-customsearch:v1-rev57-1.23.0'
 	compile 'org.jsoup:jsoup:1.11.2'
 	compile 'com.google.cloud:google-cloud-language:1.12.0'
 	compile 'com.google.code.gson:gson:2.8.2'
+	compile 'edu.stanford.nlp:stanford-corenlp:3.8.0'
+	compile 'edu.stanford.nlp:stanford-corenlp:3.8.0:models'
 	}
 	
     eclipse {
@@ -28,4 +31,4 @@ subprojects{
         	}
     	}
 	}
-}	
+}

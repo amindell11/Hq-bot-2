@@ -1,5 +1,5 @@
 set /p name=Enter Project Name:
-mkdir %name%\java\main\src
+mkdir %name%\src\java
 (
 	echo include '%name%'
 ) >> settings.gradle

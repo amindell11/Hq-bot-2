@@ -1,1 +1,1 @@
-{"answers":["he just is","idk","lemme suck it"],"question":"why is ari sick","oddOneOut":false}
+{"answers":["he just is","idk","lemme suck it"],"question":"What is the scientific study of the nervous system?","oddOneOut":false,"correctAnswer":0}

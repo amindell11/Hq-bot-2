@@ -4,12 +4,11 @@ import algorithm.KeyPhrases;
 import algorithm.QuestionAlgorithm;
 import question.Question;
 
-public class Search implements QuestionAlgorithm {
+public class KeyWordSearch implements QuestionAlgorithm {
 
 	@Override
 	public int answerQuestion(Question question) {
 		String searchTerm = question.storeAttribute(new KeyPhrases()).attributeVal;
-		WebUtil.
 		return 0;
 	}
 

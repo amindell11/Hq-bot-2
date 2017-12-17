@@ -31,7 +31,6 @@ public class AlgorithmTester {
 				.println("Percent Correct: " + new DecimalFormat("##.00").format(100d * count / correct.size()) + "%");
 		System.out.println("Average time: " + new DecimalFormat("##.00")
 				.format(processingTimes.stream().collect(Collectors.averagingDouble(d -> d))));
-
 		reader.close();
 	}
 }

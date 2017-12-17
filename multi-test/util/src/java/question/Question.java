@@ -1,4 +1,7 @@
 package question;
+
+import java.util.Arrays;
+
 import org.apache.commons.lang3.StringUtils;
 
 import com.google.gson.Gson;
@@ -8,6 +11,7 @@ public final class Question {
 	private final String[] answers;
 	private final String question;
 	private final boolean oddOneOut;
+	private int correctAnswer;
 
 	public Question(String question, String[] answers) {
 		this.question = question;
@@ -26,6 +30,14 @@ public final class Question {
 
 	public boolean isOddOneOut() {
 		return oddOneOut;
+	}
+
+	public void setCorrectAnswer(String answer) {
+		this.correctAnswer = Arrays.asList(answers).indexOf(answer);
+	}
+
+	public boolean isCorrect(int answer) {
+		return answer == correctAnswer;
 	}
 
 	public String toString() {

@@ -1,1 +1,12 @@
-{"answers":["he just is","idk","lemme suck it"],"question":"What is the scientific study of the nervous system?","oddOneOut":false,"correctAnswer":0}
+{"answers":["Daytime Emmy Awards","Academy Awards","Grammy Awards"],"question":"What is the award given out for game shows and soap operas on TV?","oddOneOut":false,"correctAnswer":0}
+{"answers":["Chocolate","Celery","Mushroom"],"question":"Which of these foods does not come in truffle form?","oddOneOut":true,"correctAnswer":1}
+{"answers":["High-definition","Movie","Hulu"],"question":"Video-sharing website Vimeo is an anagram of what?","oddOneOut":false,"correctAnswer":1}
+{"answers":["Cheeses","Wines","Vegetables"],"question":"Courgette and aubergine are names for what kind of food?","oddOneOut":false,"correctAnswer":2}
+{"answers":["JPEG","ZIP","GIF"],"question":"What did the Joint Photographic Experts Group invent in 1992?","oddOneOut":false,"correctAnswer":0}
+{"answers":["Moto GP","Top Fuel Drag","Formula 1"],"question":"What is the fastest sanctioned car racing sport in the world","oddOneOut":false,"correctAnswer":1}
+{"answers":["Steel","Financial services","Tech"],"question":"Three of the top seven best- performing stocks of last year were in which industry?","oddOneOut":false,"correctAnswer":0}
+{"answers":["Mt. Everest","Mauna Kea","K2"],"question":"From base-to-peak, what is the tallest mountain in the world?","oddOneOut":false,"correctAnswer":1}
+{"answers":["Edgar Allen Poe","Oscar Wilde","Charles Dickens"],"question":"Who is the author of \"The Picture of Dorian Gray\"?","oddOneOut":false,"correctAnswer":1}
+{"answers":["Overspeed Governor","Landing Doors","Roller Guide"],"question":"What device stops an elevator from running beyond its rated speed?","oddOneOut":false,"correctAnswer":0}
+{"answers":["Listen Lester","A Trip to Chinatown","The Black Crook"],"question":"Which Broadway play is considered to be the world\u0027s first real musical?","oddOneOut":false,"correctAnswer":2}
+{"answers":["Canada","Luxembourg","Italy"],"question":"Which of these countries was NOT involved in the Battle Of The Bulge?","oddOneOut":true,"correctAnswer":2}

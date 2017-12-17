@@ -1,6 +1,8 @@
 package file;
+
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.io.PrintWriter;
 
 public class Logger {
@@ -22,6 +24,10 @@ public class Logger {
 	 */
 	public boolean init() {
 		logFile = new File(fileName);
+		try {
+			logFile.createNewFile();
+		} catch (IOException e1) {
+		}
 		if (logFile.isFile()) {
 			try {
 				writer = new PrintWriter(logFile);

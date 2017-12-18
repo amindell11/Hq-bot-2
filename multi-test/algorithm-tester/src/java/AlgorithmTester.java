@@ -11,7 +11,7 @@ import question.Question;
 
 public class AlgorithmTester {
 	public static final QuestionAlgorithm ALGORITHM = new CombinedKeyWordSearch();
-	public static final String TEST_FILE = "question_samples/questions_1.txt";
+	public static final String TEST_FILE = "question_samples/questions_2.txt";
 
 	public static void main(String[] args) throws IOException {
 		List<Double> processingTimes = new ArrayList<>();
@@ -24,8 +24,8 @@ public class AlgorithmTester {
 			processingTimes.add((System.currentTimeMillis() - time) / 1000d);
 			boolean thisCorrect = question.isCorrect(answerIndex);
 			correct.add(thisCorrect);
-			System.out.println(question.getAnswers()[answerIndex] + " " + (thisCorrect ? "correct" : "incorrect")
-					+" correct answer: "+question.getCorrectAnswer());
+			System.err.println(question.getAnswers()[answerIndex] + " answer: " + question.getCorrectAnswer() + " "
+					+ (thisCorrect ? "correct" : "incorrect"));
 		}
 		long count = correct.stream().filter(p -> p).count();
 		System.out

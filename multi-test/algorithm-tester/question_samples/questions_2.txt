@@ -1,0 +1,12 @@
+{"answers":["Justin Timberlake","Sir lan McKellan","Warwick Davis"],"question":"Jessica Biel is married to which actor?","correctAnswer":0}
+{"answers":["Checkers","Foursquare","FaceApp"],"question":"Which of these apps would you use to \"check in\" somewhere?","correctAnswer":1}
+{"answers":["Blue Jay","Cuckoo","Cardinal"],"question":"What kind of bird\u0027s nest was flown over in the award- winning book, play and film?","correctAnswer":1}
+{"answers":["Cinderella","Sleeping Beauty","Pinocchic"],"question":"\"When You Wish Upon A Star\" is a song from which Disney film?","correctAnswer":2}
+{"answers":["Keurig","Carlsberg","Bluetooth"],"question":"Which product was named after a tenth century Danish king?","correctAnswer":2}
+{"answers":["Jellyfish","Stingray","Coral"],"question":"Which marine creature does not have stinging cells?","correctAnswer":1}
+{"answers":["The Heist","Ocean\u0027s Eleven","The Social Network"],"question":"From which film is the quote \"A million dollars isn\u0027t cool. You know what\u0027s cool? A billion dollars?\"","correctAnswer":2}
+{"answers":["Creep","In Bloonm","Black Hole Sun"],"question":"Which 90\u0027s song begins, \"Sell the kids for food, weather changes moods\"?","correctAnswer":1}
+{"answers":["Latin student","Constellation","Dog breed"],"question":"Canis Major is what?","correctAnswer":1}
+{"answers":["Jeffrey Dahmer","Van Gogh","Howard Hughes"],"question":"Whose biography is entitled, \"His Life And Madness\"?","correctAnswer":2}
+{"answers":["Pitohui","Little shrikethrush","Rapa Nui Frigatebird"],"question":"Which of these birds is NOT poisonous?","correctAnswer":2}
+{"answers":["Sunday","Saturday","Monday"],"question":"According to The Mamas and The Papas, which day cannot be trusted?","correctAnswer":2}

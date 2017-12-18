@@ -24,9 +24,10 @@ public class KeyWordSearch implements QuestionAlgorithm {
 	}
 
 	public int[] getScores(Question question) {
-		System.out.println("started keyword analysis");
-		String searchTerm = String.join(" AND ", question.storeAttribute(new KeyPhrases()).attributeVal);
+		String searchTerm = String.join(", ", question.storeAttribute(new KeyPhrases()).attributeVal);
 		Search search = util.runSearch(searchTerm, 9);
+		System.out.println(search.getSearchInformation().keySet());
+		System.out.println(searchTerm);
 		int[] answerScores = { 0, 0, 0 };
 		String[] answers = question.getAnswers();
 		List<String> pages = search.getItems().stream().map(this::getParseString).collect(Collectors.toList());
@@ -35,12 +36,11 @@ public class KeyWordSearch implements QuestionAlgorithm {
 				answerScores[x] += FuzzySearch.partialRatio(answers[x], pages.get(y));
 			}
 		}
-		System.out.println("finished keyword analysis");
 		return answerScores;
 	}
 
 	public String getParseString(Result searchResult) {
-		//return util.getSiteText(searchResult.getLink());
+		// return util.getSiteText(searchResult.getLink());
 		return searchResult.getSnippet();
 	}
 

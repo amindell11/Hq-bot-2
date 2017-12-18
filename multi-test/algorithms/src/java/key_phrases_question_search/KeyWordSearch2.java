@@ -24,7 +24,6 @@ public class KeyWordSearch2 implements QuestionAlgorithm {
 	}
 
 	public int[] getScores(Question question) {
-		System.out.println("started keyword 2 analysis");
 		String searchTerm = String.join(", ", question.storeAttribute(new KeyPhrases()).attributeVal);
 		int[] answerScores = { 0, 0, 0 };
 		String[] answers = question.getAnswers();
@@ -40,7 +39,6 @@ public class KeyWordSearch2 implements QuestionAlgorithm {
 			});
 		}
 		CompletableFuture.allOf(futures).join();
-		System.out.println("finished keyword 2 analysis");
 		return answerScores;
 	}
 

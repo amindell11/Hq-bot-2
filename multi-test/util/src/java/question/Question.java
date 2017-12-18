@@ -42,6 +42,10 @@ public final class Question {
 		return String.join(" ", answers);
 	}
 
+	public int getCorrectAnswer() {
+		return correctAnswer;
+	}
+
 	public String getLoggableString() {
 		return SERIALIZER.toJson(this);
 	}
@@ -51,6 +55,9 @@ public final class Question {
 	}
 
 	public <T> StoredAttribute<T> storeAttribute(String name, AttributeFunction<T> attributeFunction) {
+		if (attributeMap == null) {
+			attributeMap = new HashMap<>();
+		}
 		StoredAttribute<T> storedAttribute = new StoredAttribute<>(this, attributeFunction);
 		attributeMap.put(name, storedAttribute);
 		return storedAttribute;

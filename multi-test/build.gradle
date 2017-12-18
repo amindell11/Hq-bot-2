@@ -22,6 +22,8 @@ subprojects{
 	compile 'com.google.code.gson:gson:2.8.2'
 	compile 'edu.stanford.nlp:stanford-corenlp:3.8.0'
 	compile 'edu.stanford.nlp:stanford-corenlp:3.8.0:models'
+	compile 'org.apache.commons:commons-text:1.2'
+	compile 'me.xdrop:fuzzywuzzy:1.1.9'
 	}
 	
     eclipse {

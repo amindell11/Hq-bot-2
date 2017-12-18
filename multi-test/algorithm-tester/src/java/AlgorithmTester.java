@@ -6,11 +6,11 @@ import java.util.stream.Collectors;
 
 import algorithm.QuestionAlgorithm;
 import file.QuestionListReader;
+import key_phrases_question_search.CombinedKeyWordSearch;
 import question.Question;
-import random_guess.RandomGuess;
 
 public class AlgorithmTester {
-	public static final QuestionAlgorithm ALGORITHM = new RandomGuess();
+	public static final QuestionAlgorithm ALGORITHM = new CombinedKeyWordSearch();
 	public static final String TEST_FILE = "question_samples/questions_1.txt";
 
 	public static void main(String[] args) throws IOException {
@@ -24,7 +24,8 @@ public class AlgorithmTester {
 			processingTimes.add((System.currentTimeMillis() - time) / 1000d);
 			boolean thisCorrect = question.isCorrect(answerIndex);
 			correct.add(thisCorrect);
-			System.out.println(question.getAnswers()[answerIndex] + " " + (thisCorrect ? "correct" : "incorrect"));
+			System.out.println(question.getAnswers()[answerIndex] + " " + (thisCorrect ? "correct" : "incorrect")
+					+" correct answer: "+question.getCorrectAnswer());
 		}
 		long count = correct.stream().filter(p -> p).count();
 		System.out
